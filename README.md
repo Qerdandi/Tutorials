@@ -1,9 +1,9 @@
 # Guides : Set-up
 This repository contains multiple guides to help you to set-up, application, fix some problems and code in better conditions. The main applications used in these tutorials will be Unity, Intellij and VS Code. The main programming languages will be Java, C#, Python and Dart.
-## Integrate Google Play Services and Publish your Android mobile game from Unity in 2020
+## 1) Integrate Google Play Services and Publish your Android mobile game from Unity in 2020
 For this tutorial, I did a video about that on YouTube (in French sorry, but it's easy to follow all steps). You can check-out this video with the link below : 
 https://youtu.be/fAWV4mw5agY
-## Unity Development with VS Code
+## 2) Unity Development with VS Code
 VS Code compared to Visual Studio is optimized just for coding, so the interface is more simple but complete for development and easiest to use. That's why I use it for C# with Unity and Python. In this tutorial, we will see how to set-up VS Code and Unity, thanks to steps list below because it quit simple, but you can have a problem during the set-up and the solution is below. This link can also help you to understand all operations : https://code.visualstudio.com/docs/other/unity
 ### Steps to follow (all files are in the repository or you can find them in internet, but the version can be different) :
 - Install Visual Studio Code,
