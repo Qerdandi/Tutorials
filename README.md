@@ -5,7 +5,7 @@ For this tutorial, I did a video about that on YouTube (in French sorry, but it'
 https://youtu.be/fAWV4mw5agY
 ## 2) Unity Development with VS Code
 VS Code compared to Visual Studio is optimized just for coding, so the interface is more simple but complete for development and easiest to use. That's why I use it for C# with Unity and Python. In this tutorial, we will see how to set-up VS Code and Unity, thanks to steps list below because it quit simple, but you can have a problem during the set-up and the solution is below. This link can also help you to understand all operations : https://code.visualstudio.com/docs/other/unity
-### Steps to follow (all files are in the repository or you can find them in internet, but the version can be different) :
+### Steps to follow (all files and links are in the repository) :
 - Install Visual Studio Code,
 - Install the .NET Core SDK,
 - Restart your computer,
