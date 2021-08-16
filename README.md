@@ -30,3 +30,7 @@ Coming soon.
 Coming soon.
 ## 5) Java Development with IntelliJ
 Coming soon.
+
+## State:
+- [x] Work in progress
+- [ ] Work completed
