@@ -22,7 +22,10 @@ If the problem persists :
 Finally :
 - Open a Unity Project, go in "Edit --> Preferences --> External Tools",
 - In "External Script Editor" select Visual Studio Code.
-<img width="483" alt="Step4" src="https://user-images.githubusercontent.com/73184884/125639435-1eb0b12b-58cd-4665-82e2-33fe9ef783c4.PNG">
+
+<p align="center">
+  <img width="483" alt="Step4" src="https://user-images.githubusercontent.com/73184884/125639435-1eb0b12b-58cd-4665-82e2-33fe9ef783c4.PNG">
+</p>
 
 ## 3) Python Development with VS Code
 Coming soon.
