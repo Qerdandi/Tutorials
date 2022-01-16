@@ -4,7 +4,7 @@ This repository contains multiple guides to help you to set-up, application, fix
 For this tutorial, I did a video about that on YouTube (in French sorry, but it's easy to follow all steps). You can check-out this video with the link below : 
 [YouTube](https://youtu.be/fAWV4mw5agY)
 ## 2) Unity Development with VS Code
-VS Code compared to Visual Studio is optimized just for coding, so the interface is more simple but complete for development and easiest to use. That's why I use it for C# with Unity and Python. In this tutorial, we will see how to set-up VS Code and Unity, thanks to steps list below because it quit simple, but you can have a problem during the set-up and the solution is below. This link can also help you to understand all operations : https://code.visualstudio.com/docs/other/unity
+VS Code compared to Visual Studio is optimized just for coding, so the interface is more simple but complete for development and easiest to use. That's why I use it for C# with Unity and Python. In this tutorial, we will see how to set-up VS Code and Unity, thanks to steps list below because it quit simple, but you can have a problem during the set-up and the solution is below. This link can also help you to understand all operations : [Unity with VSCode](https://code.visualstudio.com/docs/other/unity)
 ### Steps to follow (all files and links are in the repository) :
 - Install Visual Studio Code,
 - Install the .NET Core SDK,
@@ -30,7 +30,7 @@ Finally :
 ## 3) Python Development with VS Code
 Coming soon.
 ## 4) Flutter/Dart Development with IntelliJ
-For this tutorial, I did a quick set-up in an other repository. You can check-out this video with the link below : [GitHube](https://github.com/CyberTorii/Skill-Tree)
+For this tutorial, I did a quick set-up in an other repository. You can check-out this video with the link below : [GitHub](https://github.com/CyberTorii/Skill-Tree)
 ## 5) Java Development with IntelliJ
 Coming soon.
 
