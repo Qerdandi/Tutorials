@@ -2,7 +2,7 @@
 This repository contains multiple guides to help you to set-up, application, fix some problems and code in better conditions. The main applications used in these tutorials will be Unity, Intellij and VS Code. The main programming languages will be Java, C#, Python and Dart.
 ## 1) Integrate Google Play Services and Publish your Android mobile game from Unity
 For this tutorial, I did a video about that on YouTube (in French sorry, but it's easy to follow all steps). You can check-out this video with the link below : 
-https://youtu.be/fAWV4mw5agY
+[YouTube](https://youtu.be/fAWV4mw5agY)
 ## 2) Unity Development with VS Code
 VS Code compared to Visual Studio is optimized just for coding, so the interface is more simple but complete for development and easiest to use. That's why I use it for C# with Unity and Python. In this tutorial, we will see how to set-up VS Code and Unity, thanks to steps list below because it quit simple, but you can have a problem during the set-up and the solution is below. This link can also help you to understand all operations : https://code.visualstudio.com/docs/other/unity
 ### Steps to follow (all files and links are in the repository) :
@@ -30,7 +30,7 @@ Finally :
 ## 3) Python Development with VS Code
 Coming soon.
 ## 4) Flutter/Dart Development with IntelliJ
-Coming soon.
+For this tutorial, I did a quick set-up in an other repository. You can check-out this video with the link below : [GitHube](https://github.com/CyberTorii/Skill-Tree)
 ## 5) Java Development with IntelliJ
 Coming soon.
 
