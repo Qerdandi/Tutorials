@@ -28,7 +28,10 @@ Finally :
 </p>
 
 ## 3) Python Development with VS Code
-Coming soon.
+To setup Python with VS Code, you just need a few step before coding. It's more simple than in previous tutorials :
+- First, go on [python](https://www.python.org/downloads/) web site and install the version you would like. During the setup of the installation, go to advanced setting and check if "add path" is selected. You also can add shortcut, but you don't have to,
+- After that, install the [VS Code](https://code.visualstudio.com/#alt-downloads) version you want and go into the extension menu. Install python extension (multiple extensions will be installed),
+- Finally, create .py file and VS Code will automatically add python interpreter thanks to the first step (path added). If the adding doesn't work, click on the button in the bottom right corner near the notification icon and add the interpreter manually.
 ## 4) Flutter/Dart Development with IntelliJ
 For this tutorial, I did a quick set-up in an other repository. You can check-out this video with the link below : [GitHub](https://github.com/CyberTorii/Skill-Tree)
 ## 5) Java Development with IntelliJ
