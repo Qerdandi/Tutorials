@@ -55,7 +55,7 @@ Open 'Edit Configuration' --> 'Additionnal run args' and add :
 flutter pub get
 ```
 ### 5) Modify laucher icon and app name :
-a) In pubspec.yaml, add :
+#### a) In pubspec.yaml, add :
 ```
 dependencies:
 	flutter_launcher_icons: "^0.8.0"
@@ -64,11 +64,11 @@ flutter_icons:
 	ios: true
 	image_path: "path/image.png"
 ```
-b) In Android --> app --> src --> main --> AndroidManifest.xml, modify :
+#### b) In Android --> app --> src --> main --> AndroidManifest.xml, modify :
 
 android:label="Your app name"
 
-c) Save and update in terminal with :
+#### c) Save and update in terminal with :
 ```
 flutter pub get
 flutter pub run flutter_launcher_icons:main
