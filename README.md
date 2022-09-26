@@ -32,10 +32,10 @@ To setup Python with VS Code, you just need a few step before coding. It's more 
 - First, go on [python](https://www.python.org/downloads/) web site and install the version you would like. During the setup of the installation, go to advanced setting and check if "add path" is selected. You also can add shortcut, but you don't have to,
 - After that, install the [VS Code](https://code.visualstudio.com/#alt-downloads) version you want and go into the extension menu. Install python extension (multiple extensions will be installed),
 - Finally, create .py file and VS Code will automatically add python interpreter thanks to the first step (path added). If the adding doesn't work, click on the button in the bottom right corner near the notification icon and add the interpreter manually.
-## 4) Flutter/Dart Development with IntelliJ
-If you want to know how to set-up Flutter and Dart: plugins, SDK, import libraries with the terminal... this video explains everything :
 
-Or you can also read this little guide to help you to configure your environment :
+## 4) Flutter/Dart Development with IntelliJ
+If you want to know how to set-up Flutter and Dart: plugins, SDK, import libraries with the terminal... you can read this little guide to help you to configure your environment :
+
 ### 1) Global setup
 - Install Intellij --> install plugins Flutter and Dart (auto), 
 - Install flutter zip file on the flutter web site : https://flutter.dev/docs/get-started/install,
@@ -44,6 +44,7 @@ Or you can also read this little guide to help you to configure your environment
 
 ### 2) Import lib and use flutter commands in terminal :
 Add in Path in Environment variable : C:\Users\yourName\flutter\bin
+
 ### 3) Fix error lib import on Intellij :
 Open 'Edit Configuration' --> 'Additionnal run args' and add :
 ```
