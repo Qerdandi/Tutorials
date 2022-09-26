@@ -1,9 +1,9 @@
 # Guides & Tutorials
 This repository contains multiple guides to help you to set-up, application, fix some problems and code in better conditions. The main applications used in these tutorials will be Unity, Intellij and VS Code. The main programming languages will be Java, C#, Python and Dart.
-## 1) Integrate Google Play Services and Publish your Android mobile game from Unity
+## I) Integrate Google Play Services and Publish your Android mobile game from Unity
 For this tutorial, I did a video about that on YouTube (in French sorry, but it's easy to follow all steps). You can check-out this video with the link below : 
 [YouTube](https://youtu.be/fAWV4mw5agY)
-## 2) Unity Development with VS Code
+## II) Unity Development with VS Code
 VS Code compared to Visual Studio is optimized just for coding, so the interface is more simple but complete for development and easiest to use. That's why I use it for C# with Unity and Python. In this tutorial, we will see how to set-up VS Code and Unity, thanks to steps list below because it quit simple, but you can have a problem during the set-up and the solution is below. This link can also help you to understand all operations : [Unity with VSCode](https://code.visualstudio.com/docs/other/unity)
 ### Steps to follow (all files and links are in the repository) :
 - Install Visual Studio Code,
@@ -27,13 +27,13 @@ Finally :
   <img width="483" alt="Step4" src="https://user-images.githubusercontent.com/73184884/125639435-1eb0b12b-58cd-4665-82e2-33fe9ef783c4.PNG">
 </p>
 
-## 3) Python Development with VS Code
+## III) Python Development with VS Code
 To setup Python with VS Code, you just need a few step before coding. It's more simple than in previous tutorials :
 - First, go on [python](https://www.python.org/downloads/) web site and install the version you would like. During the setup of the installation, go to advanced setting and check if "add path" is selected. You also can add shortcut, but you don't have to,
 - After that, install the [VS Code](https://code.visualstudio.com/#alt-downloads) version you want and go into the extension menu. Install python extension (multiple extensions will be installed),
 - Finally, create .py file and VS Code will automatically add python interpreter thanks to the first step (path added). If the adding doesn't work, click on the button in the bottom right corner near the notification icon and add the interpreter manually.
 
-## 4) Flutter/Dart Development with IntelliJ
+## IV) Flutter/Dart Development with IntelliJ
 If you want to know how to set-up Flutter and Dart: plugins, SDK, import libraries with the terminal... you can read this little guide to help you to configure your environment :
 
 ### 1) Global setup
@@ -78,7 +78,7 @@ flutter pub run flutter_launcher_icons:main
 flutter build apk --no-sound-null-safety
 flutter install 
 ```
-## 5) Java Development with IntelliJ
+## V) Java Development with IntelliJ
 Coming soon.
 
 ## State:
