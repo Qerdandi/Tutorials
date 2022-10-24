@@ -12,7 +12,7 @@ VS Code compared to Visual Studio is optimized just for coding, so the interface
 - Install C# extension and reload VS Code (you don't need any Unity extensions).
 
 After that, it's possible the it doesn't work. To see that, you can create a Unity C# script and write GameObject or Rigidbody to see if the code completion works. You can also see in the VS Code OUTPUT Panel a failure in OmniSharp Log. If it's your case :
-- Install (.NET Framework 4.7.1 Developer Pack):[https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net471-developer-pack-offline-installer];
+- Install [.NET Framework 4.7.1 Developer Pack](https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net471-developer-pack-offline-installer);
 
 If the problem persists :
 - Uninstall C# extension and reload VS Code,
