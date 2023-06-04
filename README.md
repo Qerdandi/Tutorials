@@ -95,11 +95,11 @@ cordova build android
 ### 2) Setup Cordova to build Android App
 
 #### a) Install Java jdk 19 (19 version is an example but it works with it)
-- Add Env Variable : `JAVA_HOME=C:\Program Files\__Download__\Java\jdk-19`
+- Add Env Variable : `JAVA_HOME=C:\Program Files\__Download__\Java\jdk-19` (System Variable)
 
 #### b) Install Android Command Line Tools
 - Unzip file where you want : `C:\Users\User1\__Download__\android_sdk`
-- Put all file in `android_sdk` in a new folder named `latest` child of `android_sdk`
+- Put all file in `android_sdk` in a new folder named `latest` children of `android_sdk`
 - Add Env Variable :  
 `ANDROID_HOME=C:\Users\User1\__Download__\android_sdk` (System Variable)  
 `C:\Users\User1\__Download__\android_sdk\cmdline-tools\latest\bin` (System Variable)  
