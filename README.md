@@ -78,8 +78,72 @@ flutter pub run flutter_launcher_icons:main
 flutter build apk --no-sound-null-safety
 flutter install 
 ```
-## V) Java Development with IntelliJ
-Coming soon.
+## V) Apache Cordova with VS Code
+### 1) Create and Build Android App (Cordova fully setup)
+#### a) Create a project by executing in cmd :
+```
+cordova create <project-directory> <package-name> <project-name>
+cd <project-directory>
+cordova platform add android --save
+```
+
+#### b) Build Android App (.apk file) by executing in cmd :
+```
+cordova build android
+```
+
+### 2) Setup Cordova to build Android App
+
+#### a) Install Java jdk 19 (19 version is an example but it works with it)
+- Add Env Variable : `JAVA_HOME=C:\Program Files\__Download__\Java\jdk-19`
+
+#### b) Install Android Command Line Tools
+- Unzip file where you want : `C:\Users\User1\__Download__\android_sdk`
+- Put all file in `android_sdk` in a new folder named `latest` child of `android_sdk`
+- Add Env Variable :  
+`ANDROID_HOME=C:\Users\User1\__Download__\android_sdk` (System Variable)  
+`C:\Users\User1\__Download__\android_sdk\cmdline-tools\latest\bin` (System Variable)  
+
+#### c) Install sdkmanager tools
+- Open CMD as admin
+- Execute this command : 
+```
+sdkmanager "platform-tools" "platforms;android-33" "build-tools;33.0.2"
+```
+
+#### d) Install Gradle version 7.6
+- Unzip folder and rename it `gradle` in : `C:\Users\User1\__Download__\android_sdk\`
+- Add Env Variable in Path :  
+`%ANDROID_HOME%\gradle\bin` (System Variable)  
+`%ANDROID_HOME%\platform-tools` (System Variable)  
+`%ANDROID_HOME%\latest\bin` (System Variable)  
+
+#### e) Install Nodejs
+- Add Env Variable in Path :  
+`C:\Users\User1\AppData\Roaming\npm` (User Variable)  
+`C:\Program Files\__Download__\nodejs\` (System Variable)  
+
+#### f) Install cordova
+- Execute in cmd this command :
+```
+npm install -g cordova
+```
+
+#### g) Setup VS Code
+- Install `Cordova Tools` extension
+
+### 3) Possible Issues
+
+Problem with `java -version` not find from cmd --> Solution : make sure that you have only one version of java jdk   
+Problem with Gradle version when you build the app using command `cordova build` --> Solution : make sure that you installed gradle 7.6 version   
+Problem of android or java dectection from cmd --> Solution : make sure that you open cmd as admin   
+
+### 4) Links
+
+- [sdkmanager help](https://developer.android.com/studio/command-line/sdkmanager?hl=fr)
+- [gradle releases](https://gradle.org/releases/)
+- [cordova apache help](https://cordova.apache.org/docs/en/11.x/guide/platforms/android/index.html)
+- [cordova apache get start](https://cordova.apache.org/docs/en/11.x/guide/cli/index.html)
 
 ## State:
 - [x] Work in progress
