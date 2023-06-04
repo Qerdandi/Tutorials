@@ -141,9 +141,11 @@ Problem of android or java detection from cmd --> Solution : make sure that you 
 ### 4) Links
 
 - [sdkmanager help](https://developer.android.com/studio/command-line/sdkmanager?hl=fr)
-- [gradle releases](https://gradle.org/releases/)
-- [cordova apache help](https://cordova.apache.org/docs/en/11.x/guide/platforms/android/index.html)
-- [cordova apache get start](https://cordova.apache.org/docs/en/11.x/guide/cli/index.html)
+- [Cordova Apache build requirements](https://cordova.apache.org/docs/en/11.x/guide/platforms/android/index.html)
+- [Cordova Apache create and build app](https://cordova.apache.org/docs/en/11.x/guide/cli/index.html)
+- [Android Studio releases](https://developer.android.com/studio)
+- [Gradle releases](https://gradle.org/releases/)
+- [Node.js releases](https://nodejs.org/en/download)
 
 ## State:
 - [x] Work in progress
