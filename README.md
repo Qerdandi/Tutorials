@@ -46,7 +46,7 @@ If you want to know how to set-up Flutter and Dart: plugins, SDK, import librari
 Add in Path in Environment variable : C:\Users\yourName\flutter\bin
 
 ### 3) Fix error lib import on Intellij :
-Open 'Edit Configuration' --> 'Additionnal run args' and add :
+Open 'Edit Configuration' --> 'Additional run args' and add :
 ```
 --no-sound-null-safety
 ```
@@ -54,7 +54,7 @@ Open 'Edit Configuration' --> 'Additionnal run args' and add :
 ```
 flutter pub get
 ```
-### 5) Modify laucher icon and app name :
+### 5) Modify launcher icon and app name :
 #### a) In pubspec.yaml, add :
 ```
 dependencies:
@@ -136,7 +136,7 @@ npm install -g cordova
 
 Problem with `java -version` not find from cmd --> Solution : make sure that you have only one version of java jdk   
 Problem with Gradle version when you build the app using command `cordova build` --> Solution : make sure that you installed gradle 7.6 version   
-Problem of android or java dectection from cmd --> Solution : make sure that you open cmd as admin   
+Problem of android or java detection from cmd --> Solution : make sure that you open cmd as admin   
 
 ### 4) Links
 
