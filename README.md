@@ -79,7 +79,9 @@ flutter build apk --no-sound-null-safety
 flutter install 
 ```
 ## V) Apache Cordova with VS Code
+
 ### 1) Create and Build Android App (Cordova fully setup)
+
 #### a) Create a project by executing in cmd :
 ```
 cordova create <project-directory> <package-name> <project-name>
@@ -133,13 +135,11 @@ npm install -g cordova
 - Install `Cordova Tools` extension
 
 ### 3) Possible Issues
-
-Problem with `java -version` not find from cmd --> Solution : make sure that you have only one version of java jdk   
-Problem with Gradle version when you build the app using command `cordova build` --> Solution : make sure that you installed gradle 7.6 version   
-Problem of android or java detection from cmd --> Solution : make sure that you open cmd as admin   
+- Problem with `java -version` not find from cmd --> Solution : make sure that you have only one version of java jdk   
+- Problem with Gradle version when you build the app using command `cordova build` --> Solution : make sure that you installed gradle 7.6 version   
+- Problem of android or java detection from cmd --> Solution : make sure that you open cmd as admin   
 
 ### 4) Links
-
 - [sdkmanager help](https://developer.android.com/studio/command-line/sdkmanager?hl=fr)
 - [Cordova Apache build requirements](https://cordova.apache.org/docs/en/11.x/guide/platforms/android/index.html)
 - [Cordova Apache create and build app](https://cordova.apache.org/docs/en/11.x/guide/cli/index.html)
