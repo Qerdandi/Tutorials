@@ -103,14 +103,14 @@ sdkmanager "platform-tools" "platforms;android-33" "build-tools;33.0.2"
 
 #### d) Install [Gradle](https://gradle.org/releases/)
 - Unzip folder and rename it `gradle` in `C:\Users\User1\__Download__\android_sdk\`
-- Add Env Variable in Path:  
+- Add Env Variable:  
 `%ANDROID_HOME%\gradle\bin` in Path (System Variable)  
 `%ANDROID_HOME%\platform-tools` in Path (System Variable)  
 `%ANDROID_HOME%\latest\bin` in Path (System Variable)
 `%ANDROID_HOME%\build-tools` in Path (System Variable)
 
 #### e) Install [Nodejs](https://nodejs.org/en/download)
-- Add Env Variable in Path:  
+- Add Env Variable:  
 `C:\Users\User1\AppData\Roaming\npm` in Path (User Variable)  
 `C:\Program Files\__Download__\nodejs\` in Path (System Variable)  
 
@@ -139,6 +139,35 @@ cordova platform add android --save
 cordova build android
 ```
 > Source: [Create your first Cordova app](https://cordova.apache.org/docs/en/11.x/guide/cli/index.html)
+
+## V) Python with pyenv-win and pyenv-win-venv
+
+### 1) Install pyenv-win and setup Env variables
+#### a) Install pyenv-win using, in CMD:
+```
+git clone using command prompt git clone https://github.com/pyenv-win/pyenv-win.git "%USERPROFILE%\.pyenv"
+```
+### b) In admin Powershell, add Env variables using:
+```
+[System.Environment]::SetEnvironmentVariable('PYENV',$env:USERPROFILE + "\.pyenv\pyenv-win\","User")
+[System.Environment]::SetEnvironmentVariable('PYENV_ROOT',$env:USERPROFILE + "\.pyenv\pyenv-win\","User")
+[System.Environment]::SetEnvironmentVariable('PYENV_HOME',$env:USERPROFILE + "\.pyenv\pyenv-win\","User")
+[System.Environment]::SetEnvironmentVariable('path', $env:USERPROFILE + "\.pyenv\pyenv-win\bin;" + $env:USERPROFILE + "\.pyenv\pyenv-win\shims;" + [System.Environment]::GetEnvironmentVariable('path', "User"),"User")
+```
+### 2) Install pyenv-win-venv and setup Env variables
+#### a) Install pyenv-win-venv using, in CMD:
+```
+git clone https://github.com/pyenv-win/pyenv-win-venv "%USERPROFILE%\.pyenv-win-venv"
+```
+### b) In admin Powershell, add Env variables using:
+```
+[System.Environment]::SetEnvironmentVariable('path', $env:USERPROFILE + "\.pyenv-win-venv\bin;"  + [System.Environment]::GetEnvironmentVariable('path', "User"),"User")
+```
+If you are getting any unauthorized access errors or unauthorized access to functions, in admin Powershell, use:
+```
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
+```
+> Source :
 
 ## State:
 - [x] Work in progress
