@@ -81,21 +81,7 @@ flutter install
 
 ## V) Apache Cordova with VS Code
 
-### 1) Create and Build Android App
-
-#### a) Create a project by executing in CMD:
-```
-cordova create <project-directory> <package-name> <project-name>
-cd <project-directory>
-cordova platform add android --save
-```
-
-#### b) Build Android App (.apk file) by executing in CMD:
-```
-cordova build android
-```
-
-### 2) Install Apache Cordova and dependencies to build Android App
+### 1) Install Apache Cordova and dependencies
 
 #### a) Install Java jdk 17 (LTS version is recommended)
 - Add Env Variable : `JAVA_HOME=C:\Program Files\__Download__\Java\jdk-19` (System Variable)
@@ -136,6 +122,20 @@ npm install -g cordova
 
 #### g) Setup VS Code
 - Install `Cordova Tools` extension
+
+### 2) Create and build Android App
+
+#### a) Create a project by executing in CMD:
+```
+cordova create <project-directory> <package-name> <project-name>
+cd <project-directory>
+cordova platform add android --save
+```
+
+#### b) Build Android App (.apk file) by executing in CMD:
+```
+cordova build android
+```
 
 ### 4) Links
 - [sdkmanager help](https://developer.android.com/studio/command-line/sdkmanager?hl=fr)
