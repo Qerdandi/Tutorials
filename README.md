@@ -147,7 +147,7 @@ cordova build android
 ```
 git clone using command prompt git clone https://github.com/pyenv-win/pyenv-win.git "%USERPROFILE%\.pyenv"
 ```
-### b) In admin Powershell, add Env variables using:
+#### b) In admin Powershell, add Env variables using:
 ```
 [System.Environment]::SetEnvironmentVariable('PYENV',$env:USERPROFILE + "\.pyenv\pyenv-win\","User")
 [System.Environment]::SetEnvironmentVariable('PYENV_ROOT',$env:USERPROFILE + "\.pyenv\pyenv-win\","User")
@@ -159,7 +159,7 @@ git clone using command prompt git clone https://github.com/pyenv-win/pyenv-win.
 ```
 git clone https://github.com/pyenv-win/pyenv-win-venv "%USERPROFILE%\.pyenv-win-venv"
 ```
-### b) In admin Powershell, add Env variables using:
+#### b) In admin Powershell, add Env variables using:
 ```
 [System.Environment]::SetEnvironmentVariable('path', $env:USERPROFILE + "\.pyenv-win-venv\bin;"  + [System.Environment]::GetEnvironmentVariable('path', "User"),"User")
 ```
@@ -167,7 +167,7 @@ If you are getting any unauthorized access errors or unauthorized access to func
 ```
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
 ```
-> Source :
+> Source : this quick guide is possible thank to Kiran Kumar Kotari developers of [pyenv-win](https://github.com/pyenv-win/pyenv-win), Arbaaz Laskar developers of [pyenv-win-venv](https://github.com/pyenv-win/pyenv-win-venv) and all contributors of this 2 projects. More information and example on thoses links.
 
 ## State:
 - [x] Work in progress
