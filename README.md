@@ -87,35 +87,35 @@ flutter install
 - Add Env Variable : `JAVA_HOME=C:\Program Files\__Download__\Java\jdk-19` (System Variable)
 > jdk 17 version is just an example (also works with jdk 19)
 
-#### b) Install Android Command Line Tools
+#### b) Install [Android Command Line Tools](https://developer.android.com/studio)
 - Unzip `cmdline-tools` folder in a new folder named `android_sdk` (Example location: `C:\Users\User1\__Download__\android_sdk`)
 - Put all files, in `android_sdk`, in a new folder named `latest` child of `android_sdk`
 - Add Env Variable :  
 `ANDROID_HOME=C:\Users\User1\__Download__\android_sdk` (System Variable)  
 `C:\Users\User1\__Download__\android_sdk\cmdline-tools\latest\bin` in Path (System Variable)  
 
-#### c) Install sdkmanager tools
+#### c) Install [sdkmanager tools](https://developer.android.com/tools/sdkmanager)
 - Open CMD as admin
-- Execute this command : 
+- Execute this command: 
 ```
 sdkmanager "platform-tools" "platforms;android-33" "build-tools;33.0.2"
 ```
 
-#### d) Install Gradle
+#### d) Install [Gradle](https://gradle.org/releases/)
 - Unzip folder and rename it `gradle` in `C:\Users\User1\__Download__\android_sdk\`
-- Add Env Variable in Path :  
+- Add Env Variable in Path:  
 `%ANDROID_HOME%\gradle\bin` in Path (System Variable)  
 `%ANDROID_HOME%\platform-tools` in Path (System Variable)  
 `%ANDROID_HOME%\latest\bin` in Path (System Variable)
 `%ANDROID_HOME%\build-tools` in Path (System Variable)
 
-#### e) Install Nodejs
-- Add Env Variable in Path :  
+#### e) Install [Nodejs](https://nodejs.org/en/download)
+- Add Env Variable in Path:  
 `C:\Users\User1\AppData\Roaming\npm` in Path (User Variable)  
 `C:\Program Files\__Download__\nodejs\` in Path (System Variable)  
 
 #### f) Install Cordova
-- Execute in cmd this command :
+- Execute in CMD this command:
 ```
 npm install -g cordova
 ```
@@ -123,7 +123,9 @@ npm install -g cordova
 #### g) Setup VS Code
 - Install `Cordova Tools` extension
 
-### 2) Create and build Android App
+> Source: [Cordova Apache build requirements](https://cordova.apache.org/docs/en/11.x/guide/platforms/android/index.html)
+
+### 2) Create and build Android app
 
 #### a) Create a project by executing in CMD:
 ```
@@ -132,18 +134,11 @@ cd <project-directory>
 cordova platform add android --save
 ```
 
-#### b) Build Android App (.apk file) by executing in CMD:
+#### b) Build Android app (.apk file) by executing in CMD:
 ```
 cordova build android
 ```
-
-### 4) Links
-- [sdkmanager help](https://developer.android.com/studio/command-line/sdkmanager?hl=fr)
-- [Cordova Apache build requirements](https://cordova.apache.org/docs/en/11.x/guide/platforms/android/index.html)
-- [Cordova Apache create and build app](https://cordova.apache.org/docs/en/11.x/guide/cli/index.html)
-- [Android Studio releases](https://developer.android.com/studio)
-- [Gradle releases](https://gradle.org/releases/)
-- [Node.js releases](https://nodejs.org/en/download)
+> Source: [Cordova Apache create and build app](https://cordova.apache.org/docs/en/11.x/guide/cli/index.html)
 
 ## State:
 - [x] Work in progress
