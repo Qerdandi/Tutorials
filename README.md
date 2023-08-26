@@ -123,7 +123,7 @@ npm install -g cordova
 #### g) Setup VS Code
 - Install `Cordova Tools` extension
 
-> Source: [Cordova Apache build requirements](https://cordova.apache.org/docs/en/11.x/guide/platforms/android/index.html)
+> Source: [Android Platform Guide](https://cordova.apache.org/docs/en/11.x/guide/platforms/android/index.html)
 
 ### 2) Create and build Android app
 
@@ -138,7 +138,7 @@ cordova platform add android --save
 ```
 cordova build android
 ```
-> Source: [Cordova Apache create and build app](https://cordova.apache.org/docs/en/11.x/guide/cli/index.html)
+> Source: [Create your first Cordova app](https://cordova.apache.org/docs/en/11.x/guide/cli/index.html)
 
 ## State:
 - [x] Work in progress
