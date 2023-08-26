@@ -78,33 +78,35 @@ flutter pub run flutter_launcher_icons:main
 flutter build apk --no-sound-null-safety
 flutter install 
 ```
+
 ## V) Apache Cordova with VS Code
 
-### 1) Create and Build Android App (Cordova fully setup)
+### 1) Create and Build Android App
 
-#### a) Create a project by executing in cmd :
+#### a) Create a project by executing in CMD:
 ```
 cordova create <project-directory> <package-name> <project-name>
 cd <project-directory>
 cordova platform add android --save
 ```
 
-#### b) Build Android App (.apk file) by executing in cmd :
+#### b) Build Android App (.apk file) by executing in CMD:
 ```
 cordova build android
 ```
 
-### 2) Setup Cordova to build Android App
+### 2) Install Apache Cordova and dependencies to build Android App
 
-#### a) Install Java jdk 19 (19 version is an example but it works with it)
+#### a) Install Java jdk 17 (LTS version is recommended)
 - Add Env Variable : `JAVA_HOME=C:\Program Files\__Download__\Java\jdk-19` (System Variable)
+> jdk 17 version is just an example (also works with jdk 19)
 
 #### b) Install Android Command Line Tools
-- Unzip file where you want : `C:\Users\User1\__Download__\android_sdk`
-- Put all file in `android_sdk` in a new folder named `latest` children of `android_sdk`
+- Unzip `cmdline-tools` folder in a new folder named `android_sdk` (Example location: `C:\Users\User1\__Download__\android_sdk`)
+- Put all files, in `android_sdk`, in a new folder named `latest` child of `android_sdk`
 - Add Env Variable :  
 `ANDROID_HOME=C:\Users\User1\__Download__\android_sdk` (System Variable)  
-`C:\Users\User1\__Download__\android_sdk\cmdline-tools\latest\bin` (System Variable)  
+`C:\Users\User1\__Download__\android_sdk\cmdline-tools\latest\bin` in Path (System Variable)  
 
 #### c) Install sdkmanager tools
 - Open CMD as admin
@@ -113,19 +115,20 @@ cordova build android
 sdkmanager "platform-tools" "platforms;android-33" "build-tools;33.0.2"
 ```
 
-#### d) Install Gradle version 7.6
-- Unzip folder and rename it `gradle` in : `C:\Users\User1\__Download__\android_sdk\`
+#### d) Install Gradle
+- Unzip folder and rename it `gradle` in `C:\Users\User1\__Download__\android_sdk\`
 - Add Env Variable in Path :  
-`%ANDROID_HOME%\gradle\bin` (System Variable)  
-`%ANDROID_HOME%\platform-tools` (System Variable)  
-`%ANDROID_HOME%\latest\bin` (System Variable)  
+`%ANDROID_HOME%\gradle\bin` in Path (System Variable)  
+`%ANDROID_HOME%\platform-tools` in Path (System Variable)  
+`%ANDROID_HOME%\latest\bin` in Path (System Variable)
+`%ANDROID_HOME%\build-tools` in Path (System Variable)
 
 #### e) Install Nodejs
 - Add Env Variable in Path :  
-`C:\Users\User1\AppData\Roaming\npm` (User Variable)  
-`C:\Program Files\__Download__\nodejs\` (System Variable)  
+`C:\Users\User1\AppData\Roaming\npm` in Path (User Variable)  
+`C:\Program Files\__Download__\nodejs\` in Path (System Variable)  
 
-#### f) Install cordova
+#### f) Install Cordova
 - Execute in cmd this command :
 ```
 npm install -g cordova
@@ -133,11 +136,6 @@ npm install -g cordova
 
 #### g) Setup VS Code
 - Install `Cordova Tools` extension
-
-### 3) Possible Issues
-- Problem with `java -version` not find from cmd --> Solution : make sure that you have only one version of java jdk   
-- Problem with Gradle version when you build the app using command `cordova build` --> Solution : make sure that you installed gradle 7.6 version   
-- Problem of android or java detection from cmd --> Solution : make sure that you open cmd as admin   
 
 ### 4) Links
 - [sdkmanager help](https://developer.android.com/studio/command-line/sdkmanager?hl=fr)
