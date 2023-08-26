@@ -167,7 +167,7 @@ If you are getting any unauthorized access errors or unauthorized access to func
 ```
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
 ```
-> Source : this quick guide is possible thank to Kiran Kumar Kotari developers of [pyenv-win](https://github.com/pyenv-win/pyenv-win), Arbaaz Laskar developers of [pyenv-win-venv](https://github.com/pyenv-win/pyenv-win-venv) and all contributors of this 2 projects. More information and example on thoses links.
+> Source : this quick guide is possible thanks to Kiran Kumar Kotari developers of [pyenv-win](https://github.com/pyenv-win/pyenv-win), Arbaaz Laskar developers of [pyenv-win-venv](https://github.com/pyenv-win/pyenv-win-venv) and all contributors of this 2 projects. More information and example on those links.
 
 ## State:
 - [x] Work in progress
