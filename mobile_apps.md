@@ -1,50 +1,4 @@
-# I) Flutter/Dart Development with IntelliJ
-If you want to know how to set-up Flutter and Dart: plugins, SDK, import libraries with the terminal... you can read this little guide to help you to configure your environment :
-
-## 1) Global setup
-- Install Intellij --> install plugins Flutter and Dart (auto), 
-- Install flutter zip file on the flutter web site : https://flutter.dev/docs/get-started/install,
-- Install Java and JDK,
-- Install Android studio.
-
-## 2) Import lib and use flutter commands in terminal :
-Add in Path in Environment variable : C:\Users\yourName\flutter\bin
-
-## 3) Fix error lib import on Intellij :
-Open 'Edit Configuration' --> 'Additional run args' and add :
-```
---no-sound-null-safety
-```
-## 4) Update flutter dependencies (pubspec.yaml) :
-```
-flutter pub get
-```
-## 5) Modify launcher icon and app name :
-### a) In pubspec.yaml, add :
-```
-dependencies:
-	flutter_launcher_icons: "^0.8.0"
-flutter_icons:
-	android: true
-	ios: true
-	image_path: "path/image.png"
-```
-### b) In Android --> app --> src --> main --> AndroidManifest.xml, modify :
-
-android:label="Your app name"
-
-### c) Save and update in terminal with :
-```
-flutter pub get
-flutter pub run flutter_launcher_icons:main
-```
-## 6) Build your app
-```
-flutter build apk --no-sound-null-safety
-flutter install 
-```
-
-# II) Apache Cordova with VS Code
+# I) Apache Cordova with VS Code
 
 ## 1) Install Apache Cordova and dependencies
 
@@ -104,3 +58,49 @@ cordova platform add android --save
 cordova build android
 ```
 > Source: [Create your first Cordova app](https://cordova.apache.org/docs/en/11.x/guide/cli/index.html)
+
+# II) Flutter/Dart Development with IntelliJ
+If you want to know how to set-up Flutter and Dart: plugins, SDK, import libraries with the terminal... you can read this little guide to help you to configure your environment :
+
+## 1) Global setup
+- Install Intellij --> install plugins Flutter and Dart (auto), 
+- Install flutter zip file on the flutter web site : https://flutter.dev/docs/get-started/install,
+- Install Java and JDK,
+- Install Android studio.
+
+## 2) Import lib and use flutter commands in terminal :
+Add in Path in Environment variable : C:\Users\yourName\flutter\bin
+
+## 3) Fix error lib import on Intellij :
+Open 'Edit Configuration' --> 'Additional run args' and add :
+```
+--no-sound-null-safety
+```
+## 4) Update flutter dependencies (pubspec.yaml) :
+```
+flutter pub get
+```
+## 5) Modify launcher icon and app name :
+### a) In pubspec.yaml, add :
+```
+dependencies:
+	flutter_launcher_icons: "^0.8.0"
+flutter_icons:
+	android: true
+	ios: true
+	image_path: "path/image.png"
+```
+### b) In Android --> app --> src --> main --> AndroidManifest.xml, modify :
+
+android:label="Your app name"
+
+### c) Save and update in terminal with :
+```
+flutter pub get
+flutter pub run flutter_launcher_icons:main
+```
+## 6) Build your app
+```
+flutter build apk --no-sound-null-safety
+flutter install 
+```
