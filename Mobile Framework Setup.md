@@ -59,7 +59,7 @@ cordova build android
 ```
 > Source: [Create your first Cordova app](https://cordova.apache.org/docs/en/11.x/guide/cli/index.html)
 
-# II) Flutter/Dart Development with IntelliJ
+# II) Flutter/Dart Development with IntelliJ (May be deprecated)
 If you want to know how to set-up Flutter and Dart: plugins, SDK, import libraries with the terminal... you can read this little guide to help you to configure your environment :
 
 ## 1) Global setup
